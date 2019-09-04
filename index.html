@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nail Studio Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+  <header id="header">
+    <img src="https://psv4.userapi.com/c848432/u10249300/docs/d10/e22df279822f/logo.png" alt="logo" id="header-img">
+    <nav id="nav-bar">
+      <a href="#gallery" class="nav-link">Галерея</a>
+      <a href="#service" class="nav-link">Услуги</a>
+      <a href="#contacts" class="nav-link">Контакты</a>
+    </nav>
+  </header>
+  
+  <main id="main">
+        
+    <section id="gallery">      
+      <h2 id="gallery-nav" name="gallery">Галерея</h2>
+      
+      <article class="gall-img">
+        <img src="https://pp.userapi.com/c845523/v845523045/1b47fe/P5hLR-dLbKE.jpg" alt="image" class="image">
+      </article>
+      
+      <article class="gall-img">
+        <img src="https://pp.userapi.com/c845016/v845016045/1b3f1a/rT3WTycSZUo.jpg" alt="image" class="image">
+      </article>
+      
+      <article class="gall-img">
+        <img src="https://pp.userapi.com/c848624/v848624839/12d6fe/dL0N_plt7ng.jpg" alt="image" class="image">
+      </article>
+      
+      <iframe id= "video" width="560" height="315" src="https://www.youtube.com/embed/pYqyElpoSLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+    </section>
+    
+    <section id="service">
+      <h2 id="service-nav" name="service">Услуги</h2>
+      
+      <article class="description">
+        <h2>Mаникюр</h2>
+        <img class="serv-img" src="https://www.tentazioneunghie.it/wp-content/uploads/2018/01/Rimozione-ricostruzione-unghie-in-gel-con-fresa-credit-magazine-delle-donne.jpg">
+        <p> классический, медицинский, европейский, американский, бразильский, французский, японский, испанский, SPA, аппаратный, горячий, и т.д.</p>
+      </article>
+      
+      <article class="description">
+        <h2>Педикюр</h2>
+        <img class="serv-img" src="https://mon.medikforum.ru/uploads/posts/2018-06/1528376143_klassicheskiy-pedikyur_1-1024x635.jpg">
+        <p> классический, медицинский, европейский, американский, бразильский, французский, японский, испанский, SPA, аппаратный, горячий, и т.д.</p>
+      </article>
+      
+      <article class="description">
+        <h2>Покрытие</h2>
+        <img class="serv-img" src="https://naemi.ru/wp-content/uploads/2015/05/344.jpg">
+        <p>лаком и гель-лаком (или шеллаком).</p>
+      </article>
+      
+      <article class="description">
+        <h2>Уход</h2>
+        <img class="serv-img" src="https://novy.tv/wp-content/uploads/sites/96/2016/07/d87d104a455ed4b65e0148a768d0c04f.jpg">
+        <p>за кутикулой ногтей и кожей рук – обрезание, парафинотерапия, пилинг рыбками, консультации по использованию средств ухода, и т.д.</p>
+      </article>
+      <article class="description">
+        <h2>Наращивание ногтей</h2>
+        <img class="serv-img" src="http://garnamama.in.ua/images/Prajmer_dlya_nogtej_kak_polzovatsya.jpg">
+        <p>разными способами - типсами, формами, гелем, акрилом и т.д.</p>
+      </article>
+    </seciton>
+    
+    <section id="contacts">
+      <h2 id="contacts-nav" name="contacts">Контакты</h2>
+      <article class="contact">      
+      <h3>Наш адрес:</h3> <address>г. Сургут, ул. Лермонтова, 11, "Салон 86"</address>    
+      <iframe id="map-addr" src="https://yandex.ru/map-widget/v1/?um=constructor%3A119f942f40973894cff0764d5b576a77e1ae776eecd62d17e8382c8874af2665&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+      </article>
+    <article class="contact">
+      <h3>В соцсетях</h3>
+     <!-- VK Widget -->
+      <div id="vk_app_6185525_-83625326"></div>
+      <div id="vk_subscribe"></div>
+      </article>
+      
+      <article class="contact">
+        <h3>Обратная связь</h3>
+        <p></p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">        
+        <textarea type="text" placeholder="Остались вопросы? Пишите:" rows="5"></textarea><br>
+        <input id="email" type="email" name="email" placeholder="Введите email" required>
+        <input id="submit" type="submit" value="Отправить">
+      </form>
+      </article>
+    </section>
+  </main>
+  
+  <footer id="footer">
+    <p>Created by A. Kulago</p>
+  </footer>
+  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+<script type="text/javascript">
+VK.Widgets.Subscribe("vk_subscribe", {}, -83625326);
+</script>
+  <!-- VK Widget -->
+
+<script type="text/javascript">
+VK.Widgets.App('vk_app_6185525_-83625326', '6185525_-83625326', {"mode":3});
+</script>
+</body>
+</html>
